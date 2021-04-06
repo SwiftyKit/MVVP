@@ -1,6 +1,6 @@
 # A MVVP architecture example 
 
-## MVVP
+### MVVP
 -   Models --- responsible for the domain data or a [data access layer](https://en.wikipedia.org/wiki/Data_access_layer) which manipulates the data. 
 -   View --- responsible for the presentation layer (GUI), for iOS environment think of everything starting with 'UI' prefix.
 -   ViewState --- the state of the view, it is changed by the Presenter and then rendered in the view.
