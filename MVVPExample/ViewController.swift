@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MVVPExample
 //
-//  Created by John Mao on 2021/3/29.
+//  Created by code.swifty.cc on 2021/3/29.
 //
 
 import UIKit
@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func clickMe() {
+        let viewController = ProductListViewcontroller.instantiate()
+        present(viewController, animated: true, completion: nil)
+    }
 }
 
